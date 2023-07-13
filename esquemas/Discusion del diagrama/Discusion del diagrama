@@ -1,0 +1,44 @@
+Discusión del Esquema del Robot (Arduino Uno)
+
+El esquema de nuestro Arduino Uno tiene varios bloques, cada uno relacionado con una función específica.
+
+ 
+
+El bloque principal es el microcontrolador ATmega328P, que es el cerebro del Arduino se comunica con los otros bloques a través de pines digitales y analógicos.
+
+ 
+
+Estos pines digitales se utilizan para enviar y recibir señales digitales de alta o baja, es decir, señales binarias; en otras palabras, los pines analógicos se utilizan para enviar y recibir señales analógicas, es decir, señales continuas.
+
+ 
+
+Su bloque de alimentación se encarga de suministrar energía eléctrica a la placa. Está compuesto por una entrada de alimentación de CC (7-12V) y un regulador de voltaje que se encarga de proveer la energía necesaria al microcontrolador y los demás elementos del Arduino.
+
+ 
+
+El bloque de comunicación se encarga de la transmisión de datos entre el Arduino y otros dispositivos externos. Este bloque se compone de dos elementos: el convertidor USB a serie, que permite la comunicación con el ordenador, y un conjunto de pines de comunicación I2C y SPI que permiten la conexión con otros dispositivos compatibles con estos protocolos de comunicación.
+
+ 
+
+Finalmente, el bloque de entrada/salida (E/S) es el que permite conectar sensores, actuadores y otros elementos externos al Arduino. Este bloque se compone de 14 pines de entrada/salida digitales y 6 pines de entrada analógica, y cada uno de ellos puede ser programado para realizar diferentes funciones.
+
+ 
+
+En resumen, el esquema del Arduino Uno está diseñado para que los distintos bloques trabajen en conjunto y permitan la creación de proyectos electrónicos. Cada bloque tiene una función específica y todos están diseñados para trabajar de manera coordinada, permitiendo una programación y funcionamiento más eficiente y eficaz.
+
+ 
+
+En este esquema a lograr o disponer en el Tinkercad tenemos las siguientes fuentes…
+
+·       Un motor
+
+·       2 servomotores
+
+·       Batería de 8.23 V
+
+·       Tarjeta de Arduino Uno
+
+·       Cables
+
+·       Sensor de distancia x 20 cm
+
